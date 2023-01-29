@@ -26,7 +26,8 @@ twitter_username: jekyllrb
 github_username:  sageshoyu
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: poole/hyde
 plugins:
   - jekyll-feed
 
