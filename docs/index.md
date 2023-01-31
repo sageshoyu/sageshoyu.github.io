@@ -9,4 +9,4 @@ Recently, I completed a joint concentration in mathematics and computer science 
 
 I am an observant Jew (if it's a [Jewish holiday](https://isitajewishholidaytoday.com/), I'll get back to you as soon as I can when the holiday is over).
 
-I am interested broadly in theory and algorithms relating to the interaction of computational systems and the physical world, with a focus on robot decision-making in partially-observable and noisy environments. In the past, I was interested in applying ideas from differential geometry and dynamical systems to allow robots to learn safely. 
+I am interested in theory and algorithms relating to the interaction of computational systems and the physical world, with a focus on robot decision-making in partially-observable and noisy environments. In the past, I was interested in applying ideas from differential geometry and dynamical systems to allow robots to learn safely. 
