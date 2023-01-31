@@ -2,7 +2,7 @@
 title:            Seiji Shaw
 description:      'WEBSITE UNDER CONSTRUCTION!'
 url:              'https://sageshoyu.github.io' 
-baseurl:          '/'
+baseurl:          ''
 paginate:         5
 
 # About and contact
