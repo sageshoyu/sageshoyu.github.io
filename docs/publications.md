@@ -2,8 +2,6 @@
 layout: page
 title: Publications
 ---
-For the most updated list of publications, please check [Google Scholar](https://scholar.google.com/citations?user=4ueKhGMAAAAJ&hl=en&oi=ao).
-
 \* denotes equal contribution
 
 ## Pre-prints
