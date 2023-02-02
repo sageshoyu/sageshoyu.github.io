@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-![Seiji in Yosemite](/photos/seiji_yosemite.jpg)
+![Seiji in Yosemite](/assets/photos/seiji_yosemite.jpg)
 
 I am a first year Ph.D. student in the [Robust Robotics Group](https://groups.csail.mit.edu/rrg/) at the [Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/) (CSAIL) at [MIT](https://www.mit.edu/), advised by [Prof. Nicholas Roy](https://aeroastro.mit.edu/people/nicholas-roy/). I am very grateful for the support from the [NSF Graduate Research Fellowship](https://cs.brown.edu/news/2022/05/20/five-brown-cs-students-and-alums-receive-nsf-graduate-research-fellowships/).
 
