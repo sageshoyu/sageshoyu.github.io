@@ -19,12 +19,12 @@ I am interested in theory and algorithms that engage with the interaction of com
 \* denotes equal contribution
 
 ### Pre-prints
-Constrained Dynamic Movement Primitives for Safe Learning of Motor Skills. **Seiji Shaw**, Devesh K. Jha, Arvind Raghunathan, Radu Corcodel, Diego Romeres, George Konidaris, Daniel Nikovski. *arxiv*, 2022. 
+Constrained Dynamic Movement Primitives for Safe Learning of Motor Skills. **Seiji Shaw**, Devesh K. Jha, Arvind Raghunathan, Radu Corcodel, Diego Romeres, George Konidaris, Daniel Nikovski. *under review*, 2023. 
 [arxiv](https://arxiv.org/abs/2209.14461)
 
 
 ### Conference Publications
-RMPs for Safe Impedance Control in Contact-Rich Manipulation. **Seiji Shaw**, Ben Abbatematteo, George Konidaris. *ICRA*, 2022.
+RMPs for Safe Impedance Control in Contact-Rich Manipulation. **Seiji Shaw**, Ben Abbatematteo, George Konidaris. *International Conference on Robotics and Automation (ICRA)*, 2022.
 [arxiv](https://arxiv.org/abs/2109.12103)
 
 ### Other
