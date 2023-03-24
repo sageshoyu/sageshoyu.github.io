@@ -3,7 +3,8 @@ title:            Seiji Shaw
 description:      'EECS PhD Student, MIT<br />seijis [at] mit [dot] edu<br />Office: 32-33x'
 url:              'https://sageshoyu.github.io' 
 baseurl:          ''
-paginate:         5
+paginate:         7
+paginate_path:    '/blog/page:num/'
 
 # About and contact
 author:
@@ -16,3 +17,5 @@ plugins:
 
 # Custom vars
 version:          3.0.0
+
+permalink: /blog/:categories/:year/:month/:day/:title:output_ext

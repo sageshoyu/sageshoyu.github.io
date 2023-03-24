@@ -1,3 +1,19 @@
+# Seiji's Website
+
+Seiji's research site, blog (and a place where random tidbits show up too). This site is built by Jekyll and uses a modified version of Mark Otto's Hyde (original README below). 
+
+TODO:
+
+[ ] Choose better (free) fonts: current candidates are IBM Plex, Cooper Hewitt, and Charter (make navigation sans-serif and content serif to see if that fixes the odd prominence of the sidebar)
+[ ] Play with font-background contrast ratio.
+[ ] Center the website text when the screen is stretched far enough.
+
+[ ] Blog
+    [ ] Randomized Ghibli header images to counteract the rambliness of blog (shrink/remove when the site shifts to mobile view mode)
+    [ ] Mathjax.
+    [ ] An initial post. A first content post (perhaps a nice problem from High-dim stats?) or something related to the recent Quest-abstraction building rsearch effort
+
+
 # Hyde
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
