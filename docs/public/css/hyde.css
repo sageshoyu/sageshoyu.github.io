@@ -240,11 +240,12 @@ p.sidebar-nav-item-dead {
 
 
 .footer-content {
-  padding-top:    2rem;
+  padding-top:    0rem;
   padding-bottom: 2rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-right: 2rem;
   color: #909090;
+  /*border-top: 0.1rem solid #9a9a9a;*/
 }
 
 
