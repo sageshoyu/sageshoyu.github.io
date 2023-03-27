@@ -23,6 +23,7 @@
  * Container
  * Reverse layout
  * Themes
+ * Footer
  */
 
 /*
@@ -139,7 +140,7 @@ h3 {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,.60);
   background-color: #202020;
   font-family: plex, Verdana, sans-serif;
 }
@@ -165,6 +166,7 @@ h3 {
   margin-top: 0;
   font-family: Charter, serif;
   font-size: 2.20rem;
+  margin-bottom: 1.3rem;
 }
 
 /* Sidebar nav */
@@ -237,6 +239,15 @@ p.sidebar-nav-item-dead {
 }
 
 
+.footer-content {
+  padding-top:    2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #909090;
+}
+
+
 /*
  * Reverse layout
  *
@@ -261,6 +272,13 @@ p.sidebar-nav-item-dead {
   }
 }
 
+/*
+ * Pagination Font Switch
+ */
+
+.pagination {
+  font-family: plex, Verdana, sans-serif;
+}
 
 
 /*
@@ -354,5 +372,11 @@ p.sidebar-nav-item-dead {
 }
 
 
+/*
+ * Footer
+ */
 
+footer {
+  text-align: center;
+}
 

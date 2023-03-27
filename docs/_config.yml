@@ -1,5 +1,6 @@
 # Setup
 title:            Seiji Shaw
+tagline:          PhD student@RRG
 description:      'EECS PhD Student, MIT<br />seijis [at] mit [dot] edu<br />Office: 32-33x'
 url:              'https://sageshoyu.github.io' 
 baseurl:          ''
@@ -19,3 +20,4 @@ plugins:
 version:          3.0.0
 
 permalink: /blog/:categories/:year/:month/:day/:title:output_ext
+

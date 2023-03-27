@@ -59,7 +59,7 @@ html {
 }
 
 body {
-  color: #515151;
+  color: #404040;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #353535;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -214,7 +214,7 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
+  color: #707070;
   border-left: .25rem solid #e5e5e5;
 }
 blockquote p:last-child {
@@ -274,7 +274,7 @@ tbody tr:nth-child(odd) th {
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
-  color: #717171;
+  color: #707070;
   background-color: #f9f9f9;
 }
 
@@ -349,7 +349,7 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #898989;
 }
 
 /* Related posts */
