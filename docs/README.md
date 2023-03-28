@@ -10,7 +10,7 @@ TODO:
 [x] Add footer (the content reference for MDO is distracting.
 
 [ ] Blog
-    [ ] Randomized Ghibli header images to counteract the rambliness of blog (shrink/remove when the site shifts to mobile view mode)
+    [x] Randomized Ghibli header images to counteract the rambliness of blog (shrink/remove when the site shifts to mobile view mode)
     [ ] Comments.
     [ ] Mathjax.
     [ ] An initial post. A first content post (perhaps a nice problem from High-dim stats?) or something related to the recent Quest-abstraction building rsearch effort

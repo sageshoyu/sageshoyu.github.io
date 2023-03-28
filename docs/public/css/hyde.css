@@ -219,7 +219,7 @@ p.sidebar-nav-item-dead {
  */
 
 .content {
-  padding-top:    4rem;
+  padding-top:    2rem;
   padding-bottom: 4rem;
 }
 
@@ -370,6 +370,13 @@ p.sidebar-nav-item-dead {
 .theme-base-0g .content a,
 .theme-base-0g .related-posts li a:hover {
   color: #821907;
+}
+
+img.banner {
+  height: 8rem;
+  width: 100%;
+  object-position: 50% 5%;
+  object-fit: cover;
 }
 
 
