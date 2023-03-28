@@ -4,8 +4,7 @@ title: A Blog?
 ---
 
 Hello! Welcome to the new blog section of my website. 
-This is a place for ramblings, odd-thoughts, rants, and other odd pieces
-of information as I make my way through grad school. 
+This is a place for ramblings, odd-thoughts, rants, and other odd bits. 
 I added some nice Ghibli banners to counterbalance the chaos.
 
 To be frank, the blog is still under construction. There are lots of things to add --
