@@ -139,7 +139,7 @@ h3 {
 
 .sidebar {
   text-align: center;
-  padding: 1rem 0.5rem;
+  padding: 1.0rem 0.5rem;
   color: rgba(255,255,255,.60);
   background-color: #202020;
   font-family: plex, Verdana, sans-serif;
@@ -219,7 +219,7 @@ p.sidebar-nav-item-dead {
  */
 
 .content {
-  padding-top:    2rem;
+  padding-top:    1.5rem;
   padding-bottom: 4rem;
 }
 
@@ -252,7 +252,7 @@ p.sidebar-nav-item-dead {
   padding-bottom: 2rem;
   padding-left: 1rem;
   padding-right: 2rem;
-  color: #909090;
+  color: #808080;
   /*border-top: 0.1rem solid #9a9a9a;*/
 }
 
