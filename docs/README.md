@@ -6,13 +6,13 @@ TODO:
 
 [x] Choose better (free) fonts: current candidates are IBM Plex, Cooper Hewitt, and Charter (make navigation sans-serif and content serif to see if that fixes the odd prominence of the sidebar)
 [x] Play with font-background contrast ratio.
-[ ] Center the website text when the screen is stretched far enough.
+[x] Center the website text when the screen is stretched far enough.
 [x] Add footer (the content reference for MDO is distracting.
 
 [ ] Blog
     [x] Randomized Ghibli header images to counteract the rambliness of blog (shrink/remove when the site shifts to mobile view mode)
-    [ ] Comments.
-    [ ] Mathjax.
+    [x] Comments.
+    [x] Mathjax.
     [ ] An initial post. A first content post (perhaps a nice problem from High-dim stats?) or something related to the recent Quest-abstraction building rsearch effort
 
 
