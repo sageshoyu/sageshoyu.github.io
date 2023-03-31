@@ -5,7 +5,7 @@ norandombanner: true
 ---
 # Colophon
 
-Typically, in a colophon (usually printed media) you'd get a brief synopsis of the design of the artifact. The purpose of this page is _slightly_ different (I'm not a typography history buff) -- it's to fill in any details about how to design a similar site that may be hard to get from reading the <a href="https://github.com/sageshoyu/sageshoyu.github.io">code</a> directly.
+Typically, in a colophon (usually appears in printed media) you'd get a brief synopsis of the design of the artifact. The purpose of this page is _slightly_ different (I'm not a typography history buff) -- it's to fill in any details about how to design a similar site that may be hard to get from reading the <a href="https://github.com/sageshoyu/sageshoyu.github.io">code</a> directly.
 
 The headings and menu text are set in <a href='https://www.ibm.com/plex/'>IBM Plex Sans</a>, which was designed by Mike Abbink in collaboration with Bold Monday. 
 The body text is set in <a href="https://practicaltypography.com/charter.html">Bitstream Charter</a>, which was designed by Matthew Carter in 1987.
