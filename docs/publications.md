@@ -8,12 +8,12 @@ norandombanner: true
 \* denotes equal contribution
 
 ### Preprints
-Constrained Dynamic Movement Primitives for Safe Learning of Motor Skills. **Seiji Shaw**, Devesh K. Jha, Arvind Raghunathan, Radu Corcodel, Diego Romeres, George Konidaris, Daniel Nikovski. *under review*, 2023. 
+Constrained Dynamic Movement Primitives for Safe Learning of Motor Skills. **Seiji Shaw**, Devesh K. Jha, Arvind Raghunathan, Radu Corcodel, Diego Romeres, George Konidaris, Daniel Nikovski. *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2023. 
 [arxiv](https://arxiv.org/abs/2209.14461)
 
 
 ### Conference Publications
-RMPs for Safe Impedance Control in Contact-Rich Manipulation. **Seiji Shaw**, Ben Abbatematteo, George Konidaris. *International Conference on Robotics and Automation (ICRA)*, 2022.
+RMPs for Safe Impedance Control in Contact-Rich Manipulation. **Seiji Shaw**, Ben Abbatematteo, George Konidaris. *IEEE International Conference on Robotics and Automation (ICRA)*, 2022.
 [arxiv](https://arxiv.org/abs/2109.12103)
 
 ### Other
