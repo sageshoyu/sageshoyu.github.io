@@ -14,5 +14,4 @@ I am an observant Jew (if it's a [Jewish holiday](https://isitajewishholidaytoda
 
 I am interested in theory and algorithms that engage with the interaction of computational systems and the physical world. My primary focus is on robot decision-making in partially-observable and noisy environments. In the past, I was interested in applying ideas from differential geometry and dynamical systems to allow robots to learn safely. 
 
-![Yosemite](/assets/images/seiji_in_yosemite.jpg)
 
