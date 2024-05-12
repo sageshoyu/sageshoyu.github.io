@@ -10,7 +10,7 @@ norandombanner: true
 ### Pre-prints
 Amortized Inference for Efficient Grasp Model Adaptation. Michael Noseworthy\*, **Seiji Shaw**\*, Chad C. Kessens, Nicholas Roy. *Accepted, IEEE International Conference on Robotics and Automation (ICRA)*, 2024. [link.](http://groups.csail.mit.edu/rrg/papers/noseworthy_shaw_icra24.pdf)
 
-Constrained Bimanual Planning with Analytic Inverse Kinematics. Thomas Cohn, **Seiji Shaw**, Max Simchowitz, Russ Tedrake. *Accepted, IEEE International Conference on Robotics and Automation (ICRA)*, 2024. **Best Manipulation in Robot Manipulation Finalist.** [arxiv.](https://arxiv.org/abs/2309.08770)
+Constrained Bimanual Planning with Analytic Inverse Kinematics. Thomas Cohn, **Seiji Shaw**, Max Simchowitz, Russ Tedrake. *Accepted, IEEE International Conference on Robotics and Automation (ICRA)*, 2024. **Best Paper in Robot Manipulation Finalist.** [arxiv.](https://arxiv.org/abs/2309.08770)
 
 ### Conference Publications
 Constrained Dynamic Movement Primitives for Safe Learning of Motor Skills. **Seiji Shaw**, Devesh K. Jha, Arvind Raghunathan, Radu Corcodel, Diego Romeres, George Konidaris, Daniel Nikovski. *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2023. 
