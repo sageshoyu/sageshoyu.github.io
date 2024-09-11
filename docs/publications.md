@@ -11,7 +11,7 @@ norandombanner: true
 Towards Practical Finite Sample Bounds for Motion Planning in TAMP. **Seiji Shaw**, Aidan Curtis, Leslie Pack Kaelbling, Tomás Lozano-Pérez, Nicholas Roy. *To be presented at the Workshop on the Algorithmic Foundations of Robotics,* 2024. [arxiv](https://arxiv.org/abs/2407.17394)
 
 ### Conference Publications
-Amortized Inference for Efficient Grasp Model Adaptation. Michael Noseworthy\*, **Seiji Shaw**\*, Chad C. Kessens, Nicholas Roy. *IEEE International Conference on Robotics and Automation (ICRA)*, 2024. [link.](http://groups.csail.mit.edu/rrg/papers/noseworthy_shaw_icra24.pdf)
+Amortized Inference for Efficient Grasp Model Adaptation. Michael Noseworthy\*, **Seiji Shaw**\*, Chad C. Kessens, Nicholas Roy. *IEEE International Conference on Robotics and Automation (ICRA)*, 2024. [link.](https://ieeexplore.ieee.org/abstract/document/10610789)
 
 Constrained Bimanual Planning with Analytic Inverse Kinematics. Thomas Cohn, **Seiji Shaw**, Max Simchowitz, Russ Tedrake. *IEEE International Conference on Robotics and Automation (ICRA)*, 2024. **Best Paper in Robot Manipulation Finalist.** [arxiv.](https://arxiv.org/abs/2309.08770)
 
