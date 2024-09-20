@@ -10,7 +10,7 @@
 
 .masthead-title {
   margin-bottom: 0;
-  font-size: 1.50rem;
+  font-size: 1.15rem;
 
   a {
     color: inherit;
@@ -23,11 +23,18 @@
   }
 }
 
+
+@media (min-width: 30em) {
+  .masthead-title {
+    font-size: 1.25rem;
+  }
+}
+
 // Navbar styles
 .nav {
   float: right;
   line-height: 1.25rem;
-  word-spacing: 1rem;
+  word-spacing: 0.5rem;
 }
 
 small.contact{
