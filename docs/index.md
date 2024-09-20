@@ -14,7 +14,7 @@ I focus on robot decision-making in partially-observable and noisy environments.
 In the past, I was interested in applying ideas from differential geometry and dynamical systems to allow robots to learn safely. 
 
 I completed a joint concentration in mathematics and computer science from [Brown University](https://www.brown.edu/) and was advised by [Prof. George Konidaris](https://cs.brown.edu/people/gdk/) and [Prof. Stefanie Tellex](https://cs.brown.edu/people/stellex/). I was also a research intern at [MERL](https://www.merl.com/research/). 
-I am an observant Jew, which may affect [my availability online.](https://isitajewishholidaytoday.com/)
+I am an observant Jew, which may affect my availability online ([is it a Jewish holiday today?](https://isitajewishholidaytoday.com/)).
 
 ## Publications
 \* denotes equal contribution
