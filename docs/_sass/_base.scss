@@ -10,7 +10,7 @@ html {
   font-size: var(--body-font-size-phone);
 }
 
-@media (min-width: 30em) {
+@media (min-width: 35em) {
   html {
     font-size: var(--body-font-size-desk);
   }
