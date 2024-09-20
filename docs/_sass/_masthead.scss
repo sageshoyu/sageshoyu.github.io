@@ -1,0 +1,38 @@
+// Masthead
+//
+// Super small header above the content for site name and short description.
+
+.masthead {
+  padding-top: var(--spacer);
+  padding-bottom: var(--spacer);
+  margin-bottom: var(--spacer-3);
+}
+
+.masthead-title {
+  margin-bottom: 0;
+  font-size: 1.50rem;
+
+  a {
+    color: inherit;
+    //text-decoration: inherit;
+  }
+
+  small {
+    font-weight: 400;
+    // opacity: 0.5;
+  }
+}
+
+// Navbar styles
+.nav {
+  float: right;
+  line-height: 1.25rem;
+  word-spacing: 1rem;
+}
+
+small.contact{
+    color: var(--flexoki-800);
+    font-family: var(--header-font);
+    font-style: italic;
+    line-height: 1;
+}

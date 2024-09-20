@@ -2,42 +2,28 @@
 layout: default
 ---
 
-<div class="post">
+<article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
-</div>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+  {% unless page.norandombanner %}
+    {% include randombanner.html %}
+  {% endunless %}
 
-{% if site.related_posts.size >= 1 %}
-<div class="related">
-  <h2>Related posts</h2>
+  {{ content }}
+</article>
+
+{% if site.related_posts != empty %}
+<aside class="related">
+  <h3>Related posts</h3>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
-        <h3 style='display:inline'>
-          <a href="{{ post.url | absolute_url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+        </a>
       </li>
     {% endfor %}
   </ul>
-</div>
+</aside>
 {% endif %}
-
-<script src="https://giscus.app/client.js"
-        data-repo="sageshoyu/sageshoyu.github.io"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkzMDE4ODkxNTQ="
-        data-category="Announcements"
-        data-category-id="DIC_kwDOEf52gs4CVYRp"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="0"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="light"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script> 

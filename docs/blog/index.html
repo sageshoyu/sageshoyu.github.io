@@ -2,8 +2,11 @@
 layout: default
 title: Blog
 ---
+<p style='font-family: var(--header-font); color:var(--flexoki-black); font-style: italic'>Thoughlets, rambles, and rants, all complete with a whimsical Ghibli banner. <a href='/atom.xml'>RSS feed</a></p>
 
-<p style='font-family: plex, sans-serif; color:#606060'>Thoughlets, rambles, and rants, all complete with a whimsical Ghibli banner. <a href='/atom.xml'>RSS feed</a></p>
+  {% unless page.norandombanner %}
+    {% include randombanner.html %}
+  {% endunless %}
 
 <div class="posts">
   {% for post in paginator.posts %}
@@ -23,7 +26,7 @@ title: Blog
 </div>
 
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<div class="pagination" style='font-family: var(--header-font)'>
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
   {% else %}

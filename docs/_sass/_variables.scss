@@ -1,0 +1,133 @@
+:root {
+  --gray-000: #f8f9fa;
+  --gray-100: #f1f3f5;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #868e96;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+  --dark-poole-001: hsl(200, 3%, 12%);
+  --dark-poole-002: hsl(0, 0%, 85%);
+  --dark-poole-link-color: rgba(255, 255, 255, 0.75);
+  --dark-poole-link-hover: #fff;
+
+  --red: #fa5252;
+  --pink: #e64980;
+  --grape: #be4bdb;
+  --purple: #7950f2;
+  --indigo: #4c6ef5;
+  --blue: #228be6;
+  --cyan: #15aabf;
+  --teal: #12b886;
+  --green: #40c057;
+  --yellow: #fab005;
+  --orange: #fd7e14;
+
+  --blue-300: #74c0fc;
+  --blue-400: #4dabf7;
+  --yellow-100: #fff3bf;
+
+// Flexoki colors
+  --flexoki-black:       #100F0F;
+  --flexoki-paper:       #FFFCF0;
+
+  --flexoki-950:         #1C1B1A;
+  --flexoki-900:         #282726;
+  --flexoki-850:         #343331;
+  --flexoki-800:         #403E3C;
+  --flexoki-700:         #575653;
+  --flexoki-600:         #6F6E69;
+  --flexoki-500:         #878580;
+  --flexoki-300:         #B7B5AC;
+  --flexoki-200:         #CECDC3;
+  --flexoki-150:         #DAD8CE;
+  --flexoki-100:         #E6E4D9;
+  --flexoki-50:          #F2F0E5;
+
+  --flexoki-red-600:     #AF3029;
+  --flexoki-red-400:     #D14D41;
+
+  --flexoki-orange-600:  #BC5215;
+  --flexoki-orange-400:  #DA702C;
+
+  --flexoki-yellow-900:  #4D3A0B;
+  --flexoki-yellow-600:  #AD8301;
+  --flexoki-yellow-400:  #D0A215;
+  --flexoki-yellow-100:  #FCEEB8;
+
+  --flexoki-green-600:   #66800B;
+  --flexoki-green-400:   #879A39;
+
+  --flexoki-cyan-950:    #142625;
+  --flexoki-cyan-600:    #24837B;
+  --flexoki-cyan-400:    #3AA99F;
+  --flexoki-cyan-50:     #EBF2E7;
+
+  --flexoki-blue-600:    #205EA6;
+  --flexoki-blue-400:    #4385BE;
+
+  --flexoki-purple-600:  #5E409D;
+  --flexoki-purple-400:  #8B7EC8;
+
+  --flexoki-magenta-600: #A02F6F;
+  --flexoki-magenta-400: #CE5D97;
+
+
+
+  //InterDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  //  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  //  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --header-font: plex, -apple-system, Arial, sans-serif;
+  --body-font: Charter, Georgia, serif;
+  --body-font-size: 20px;
+  --body-line-height: 1.5;
+  --body-color: var(--flexoki-black);
+  --body-bg: var(--flexoki-paper);
+
+  --link-color: var(--flexoki-cyan-600);
+  --link-hover-color: var(--flexoki-cyan-600);
+
+  --heading-color: var(--flexoki-black);
+
+  --border-color: var(--flexoki-100);
+  --border-radius: 0.25rem;
+
+  --code-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  --code-color: var(--flexoki-600);
+  --code-bg: var(--flexoki-50);
+
+  --spacer: 1rem;
+  --spacer-2: calc(var(--spacer) * 1.5);
+  --spacer-3: calc(var(--spacer) * 3);
+}
+
+//@media (prefers-color-scheme: dark) {
+//  :root {
+//    --body-color: var(--flexoki-200);
+//    --body-bg: var(--flexoki-black);
+//
+//    --heading-color: var(--flexoki-200);
+//
+//    --link-color: var(--flexoki-cyan-400);
+//    --link-hover-color: var(--flexoki-cyan-600);
+//
+//    --border-color: var(--flexoki-900);
+//
+//    --code-bg: var(--flexoki-950);
+//  }
+//}
+
+// Dark Poole theme
+//[data-theme="dark-poole"] {
+//  --body-color: var(--dark-poole-002);
+//  --body-bg: var(--dark-poole-001);
+//  --heading-color: var(--dark-poole-002);
+//  --link-color: var(--dark-poole-link-color);
+//  --link-hover-color: var(--dark-poole-link-hover);
+//  --border-color: rgba(255, 255, 255, 0.15);
+//  --code-bg: var(--gray-900);
+//}

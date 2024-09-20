@@ -1,134 +1,125 @@
-# Seiji's Website
+# Dark Poole
 
-Seiji's research site, blog (and a place where random tidbits show up too). This site is built by Jekyll and uses a modified version of Mark Otto's Hyde (original README below). 
+![Dark Poole](https://user-images.githubusercontent.com/13270895/89133355-26b3af80-d4e9-11ea-81cd-eacaa9c78320.png)
 
-TODO:
+Dark Poole is a permanent dark theme of the Poole theme by [@mdo](https://github.com/mdo). I made the theme darker, inspired by [Derek Kedziora's site](https://derekkedziora.com/). Unlike default Poole that utilizes CSS media queries to activate dark mode, the theme will stay dark regardless of the user's preference.
 
-[x] Choose better (free) fonts: current candidates are IBM Plex, Cooper Hewitt, and Charter (make navigation sans-serif and content serif to see if that fixes the odd prominence of the sidebar)
-[x] Play with font-background contrast ratio.
-[x] Center the website text when the screen is stretched far enough.
-[x] Add footer (the content reference for MDO is distracting.
+- I added a navbar that is easily customizable. Check out [Development](#development) to see how.
+- I also got rid of the "tagline" in the navbar. I think it looks cleaner without it.
+- Finally, I changed the default font size to 20px. I have 20/20 vision and still thought the original font size was too small.
 
-[ ] Blog
-    [x] Randomized Ghibli header images to counteract the rambliness of blog (shrink/remove when the site shifts to mobile view mode)
-    [x] Comments.
-    [x] Mathjax.
-    [ ] An initial post. A first content post (perhaps a nice problem from High-dim stats?) or something related to the recent Quest-abstraction building rsearch effort
+That's it! I tried to be least intrusive as possible to the Poole code base.
 
+**I noticed that Poole's documentation is slightly outdated and misleading. This documentation will try to address most, if not all, of these issues.**
 
-
-# Hyde
-
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
-
-![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
-
+---
 
 ## Contents
 
 - [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Sticky sidebar content](#sticky-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
 - [Development](#development)
 - [Author](#author)
 - [License](#license)
 
-
 ## Usage
 
-Hyde is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
+### 1. Install dependencies
 
+Poole is built on Jekyll and uses its built-in SCSS compiler to generate our CSS. Before getting started, you'll need to install the Jekyll gem and related dependencies:
 
-## Options
-
-Hyde includes some customizable options, typically applied via classes on the `<body>` element.
-
-
-### Sidebar menu
-
-Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
-
-```
----
-layout: page
-title: About
----
+```bash
+$ gem install jekyll jekyll-gist jekyll-sitemap jekyll-seo-tag
 ```
 
-**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
+### 2. Install bundler
 
+You must have bundler installed. If you already have bundler installed, please skip this step.
 
-### Sticky sidebar content
+```bash
+# Update Rubygems
+$ gem update --system
+# Update bundler
+$ gem install bundler
+```
 
-By default Hyde ships with a sidebar that affixes its content to the bottom of the sidebar. You can optionally disable this by removing the `.sidebar-sticky` class from the sidebar's `.container`. Sidebar content will then normally flow from top to bottom.
+### 3. Running locally
+
+To see your Jekyll site with Poole applied, start a Jekyll server. In Terminal, from `/dark-poole` (or whatever your Jekyll site's root directory is named):
+
+```bash
+$ bundle exec jekyll serve
+```
+
+Open <http://localhost:4000> in your browser, and voilà.
+
+### 4. Serving it up
+
+If you host your code on GitHub, you can use [GitHub Pages](https://pages.github.com) to host your project.
+
+1. Fork this repo and switch to the `gh-pages` branch.
+1. If you're [using a custom domain name](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages), modify the `CNAME` file to point to your new domain.
+1. If you're not using a custom domain name, **modify the `url` in `_config.yml`** to point to your GitHub Pages URL. Example: for a site hosted at `username.github.io`, use `http://username.github.io`.
+1. If you want to use your repo name as a base url, **set the `url`** to your repo link and **set the `baseurl`** to your repo name in **`_config.yml`**. Example: for site hosted on `https://username.github.io/dark-poole`, set `url` as `https://username.github.io/dark-poole` and `baseurl` as `/dark-poole`.
+1. Done! Head to your GitHub Pages URL or custom domain.
+
+No matter your production or hosting setup, be sure to verify the `baseurl` option file and `CNAME` settings. Not applying this correctly can mean broken styles on your site.
+
+### 5. Pagination for sites with base urls
+
+If you are using a base url for your site, (for example, hosted on `https://username.github.io/dark-poole`) you have to make some changes to get jekyll-pagination to work correctly:
+
+In `_config.yml`, add this line:
+
+```yaml
+paginate_path: "/baseurl/page:num/"
+```
+
+In `archive.md`, add `{{ site.baseurl }}` before `{{ post.url }}`
 
 ```html
-<!-- Default sidebar -->
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    ...
-  </div>
-</div>
-
-<!-- Modified sidebar -->
-<div class="sidebar">
-  <div class="container">
-    ...
-  </div>
-</div>
+<!-- Add "{{ site.baseurl }}" -->
+<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 ```
 
-
-### Themes
-
-Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
-
-![Hyde in red](https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png)
-
-There are eight themes available at this time.
-
-![Hyde theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
-
-To use a theme, add anyone of the available theme classes to the `<body>` element in the `default.html` layout, like so:
+In `index.html`, remove the `prepend:`:
 
 ```html
-<body class="theme-base-08">
-  ...
-</body>
+<!-- Remove "prepend:" in "prepend: relative_url" -->
+<a
+  class="pagination-item newer"
+  href="{{ paginator.previous_page_path | relative_url }}"
+  >Newer</a
+>
 ```
-
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
-
-### Reverse layout
-
-![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
-
-Hyde's page orientation can be reversed with a single class.
-
-```html
-<body class="layout-reverse">
-  ...
-</body>
-```
-
 
 ## Development
 
-Hyde has two branches, but only one is used for active development.
+Poole has two branches, but only one is used for active development.
 
-- `master` for development.  **All pull requests should be submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
+- `master` for development. **All pull requests should be to submitted against `master`.**
+- `gh-pages` for hosted demo **Please avoid using this branch.**
 
+CSS is handled via Jeykll's built-in Sass compiler. Source Sass files are located in `_sass/`, included into `styles.scss`, and compile to `styles.css`.
+
+### Customize Navbar
+
+You can easily customize the navbar by tweaking the `_config.yml` file. Simply change the title and url of each of the nav elements, or add more. The order will be preserved in the site.
+
+```yaml
+nav:
+  - title: Blog
+    url: /archive
+
+  - title: About
+    url: /about
+```
 
 ## Author
 
 **Mark Otto**
+
 - <https://github.com/mdo>
 - <https://twitter.com/mdo>
-
 
 ## License
 

@@ -1,23 +1,58 @@
 # Setup
-title:            Seiji Shaw
-tagline:          PhD student@RRG
-description:      'EECS PhD Student, MIT<br />seijis [at] mit [dot] edu<br />Office: 45-633'
-url:              'https://sageshoyu.github.io' 
-baseurl:          ''
-paginate:         7
-paginate_path:    '/blog/page:num/'
-
-# About and contact
-author:
-  name:           'Seiji Shaw'
+title: Seiji Shaw 
+tagline: PhD student@RRG
+contact_email: seijis [at] mit [dot] edu
+contact_office: 45-633
+url: 'https://sageshoyu.github.io'
+baseurl: ""
+paginate: 5
+paginate_path: '/blog/page:num/'
+permalink: /blog/:categories/:year/:month/:day/:title:output_ext
 
 # Gems
 plugins:
-  - jekyll-paginate
   - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
+author:
+  name: Mark Otto
+  url: https://twitter.com/mdo
+  email: markdotto@gmail.com
 
 # Custom vars
-version:          3.0.0
+version: 3.0.0
 
-permalink: /blog/:categories/:year/:month/:day/:title:output_ext
+# Navbar page list
+nav:
+  - title: Blog
+    url: /blog
 
+  - title: Scholar
+    url: https://scholar.google.com/citations?user=4ueKhGMAAAAJ&hl=en&oi=ao
+
+  - title: Github
+    url: https://github.com/sageshoyu
+
+  - title: CV
+    url: /assets/seiji_cv_aug_2023.pdf
