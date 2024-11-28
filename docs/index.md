@@ -22,7 +22,7 @@ I am an observant Jew, which may affect my availability online ([is it a Jewish 
 \* denotes equal contribution
 
 ### Pre-prints
-Towards Practical Finite Sample Bounds for Motion Planning in TAMP. **Seiji Shaw**, Aidan Curtis, Leslie Pack Kaelbling, Tomás Lozano-Pérez, Nicholas Roy. *(in press) Algorithmic Foundations of Robotics,* 2024. [arxiv](https://arxiv.org/abs/2407.17394)
+Towards Practical Finite Sample Bounds for Motion Planning in TAMP. **Seiji Shaw**, Aidan Curtis, Leslie Pack Kaelbling, Tomás Lozano-Pérez, Nicholas Roy. *(in press) Algorithmic Foundations of Robotics,* 2024. [arxiv](https://arxiv.org/abs/2407.17394) [code (coming soon!)](https://github.com/robustrobotics/nonasymptotic-mp)
 
 ### Conference Publications
 Amortized Inference for Efficient Grasp Model Adaptation. Michael Noseworthy\*, **Seiji Shaw**\*, Chad C. Kessens, Nicholas Roy. *IEEE International Conference on Robotics and Automation (ICRA)*, 2024. [link.](https://ieeexplore.ieee.org/abstract/document/10610789)
