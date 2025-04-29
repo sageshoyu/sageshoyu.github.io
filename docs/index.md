@@ -22,6 +22,10 @@ I am an observant Jew, which may affect my availability online ([is it a Jewish 
 \* denotes equal contribution
 
 ### Pre-prints
+
+Learning Attentive Neural Processes for Planning with Pushing Actions, *In Submission,*  2025. [arxiv.](https://arxiv.org/abs/2504.17924) 
+
+
 Towards Practical Finite Sample Bounds for Motion Planning in TAMP. **Seiji Shaw**, Aidan Curtis, Leslie Pack Kaelbling, Tomás Lozano-Pérez, Nicholas Roy. *(in press) Algorithmic Foundations of Robotics,* 2024. [arxiv.](https://arxiv.org/abs/2407.17394) [code.](https://github.com/robustrobotics/nonasymptotic-mp)
 
 ### Conference Publications
