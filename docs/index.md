@@ -8,7 +8,7 @@ norandombanner: true
 
 <img style="width: 25rem; display: block; margin-left: auto; margin-right: auto;" src="/assets/images/seiji.jpeg" alt="Seiji"/>
 
-I am a third year Ph.D. student in the [Robust Robotics Group](https://groups.csail.mit.edu/rrg/) at the [Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/) (CSAIL) at [MIT](https://www.mit.edu/), advised by [Prof. Nicholas Roy](https://aeroastro.mit.edu/people/nicholas-roy/). I am very grateful for the support from the [NSF Graduate Research Fellowship](https://cs.brown.edu/news/2022/05/20/five-brown-cs-students-and-alums-receive-nsf-graduate-research-fellowships/).
+I am a fourth-year Ph.D. student in the [Robust Robotics Group](https://groups.csail.mit.edu/rrg/) at the [Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/) (CSAIL) at [MIT](https://www.mit.edu/), advised by [Prof. Nicholas Roy](https://aeroastro.mit.edu/people/nicholas-roy/). I am very grateful for the support from the [NSF Graduate Research Fellowship](https://cs.brown.edu/news/2022/05/20/five-brown-cs-students-and-alums-receive-nsf-graduate-research-fellowships/).
 
 
 My research interests include theory and algorithms that engage with the interaction of computational systems and the physical world. 
@@ -23,8 +23,6 @@ I am an observant Jew, which may affect my availability online ([is it a Jewish 
 
 ### Pre-prints
 
-Learning Attentive Neural Processes for Planning with Pushing Actions. Atharv Jain, **Seiji Shaw**, Nicholas Roy. *In Submission,*  2025. [arxiv.](https://arxiv.org/abs/2504.17924) 
-
 
 Towards Practical Finite Sample Bounds for Motion Planning in TAMP. **Seiji Shaw**, Aidan Curtis, Leslie Pack Kaelbling, Tomás Lozano-Pérez, Nicholas Roy. *(in press) Algorithmic Foundations of Robotics,* 2024. [arxiv.](https://arxiv.org/abs/2407.17394) [code.](https://github.com/robustrobotics/nonasymptotic-mp)
 
@@ -38,6 +36,12 @@ Constrained Dynamic Movement Primitives for Safe Learning of Motor Skills. **Sei
 
 RMPs for Safe Impedance Control in Contact-Rich Manipulation. **Seiji Shaw**, Ben Abbatematteo, George Konidaris. *IEEE International Conference on Robotics and Automation (ICRA)*, 2022.
 [arxiv.](https://arxiv.org/abs/2109.12103)
+
+
+### Workshop Manuscripts
+
+Learning Attentive Neural Processes for Planning with Pushing Actions. Atharv Jain, **Seiji Shaw**, Nicholas Roy. *RoboReps, Robotics Science and Systems*  2025. [arxiv.](https://arxiv.org/abs/2504.17924) 
+
 
 ### Miscellaneous
 A seabird population model to evaluate plastic pollution policies. Tiffany Ding\*, Soryan Kumar \*, **Seiji Shaw**\*. *Undergraduate Mathematics and Its Applications*, 2020.
