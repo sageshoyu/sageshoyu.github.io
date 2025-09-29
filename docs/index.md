@@ -40,7 +40,7 @@ RMPs for Safe Impedance Control in Contact-Rich Manipulation. **Seiji Shaw**, Be
 
 ### Workshop Manuscripts
 
-Learning Attentive Neural Processes for Planning with Pushing Actions. Atharv Jain, **Seiji Shaw**, Nicholas Roy. *RoboReps, Robotics Science and Systems*  2025. [arxiv.](https://arxiv.org/abs/2504.17924) 
+Learning Attentive Neural Processes for Planning with Pushing Actions. Atharv Jain, **Seiji Shaw**, Nicholas Roy. *RoboReps Workshop, Robotics Science and Systems*  2025. [arxiv.](https://arxiv.org/abs/2504.17924) 
 
 
 ### Miscellaneous
