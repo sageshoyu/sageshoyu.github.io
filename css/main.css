@@ -1,3 +1,7 @@
+:root {
+  --width: 650px;
+}
+
 html, html[data-theme="light"] {
 	--link-color: rgb(0, 112, 201);
   --main-background-color: hsl(0, 0%, 90%);
@@ -37,8 +41,8 @@ a {
 	color: var(--link-color);
 }
 
-article {
-	max-width: 650px; 
+body {
+	max-width: var(--width); 
 	margin: 2em auto;
 }
 
@@ -54,4 +58,11 @@ h2 {
 
 p {
 	font-size: 1.25rem;
+}
+
+/** navbar styling **/
+.nav {
+  float: right;
+  /* line-height: 1.25rem;
+  word-spacing: 1rem; */
 }

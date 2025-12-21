@@ -1,11 +1,11 @@
-title: "A Dark and Random Jekyll Demo" 
-author: Derek Kedziora
-email: "derekkedziora@icloud.com"
+title: Seiji Shaw 
+author: Seiji Shaw
+email: seijis@mit.edu
 description: "A Jekyll demo site with a dark mode switch and random post feature"
-github: derekkedziora
+github: sageshoyu
 markdown: kramdown
 parse_block_html: false
-url: https://demo.derekkedziora.com/
+url: https://sageshoyu.github.io
 defaults:
   -
     scope:
@@ -13,9 +13,14 @@ defaults:
     values:
       layout: "default"
 
-plugins:
-  - jekyll-feed
 
-feed: 
-  categories:
-    - now
+# Navbar page list
+nav:
+  - title: Scholar
+    url: https://scholar.google.com/citations?user=4ueKhGMAAAAJ&hl=en&oi=ao
+
+  - title: Github
+    url: https://github.com/sageshoyu
+
+  - title: CV
+    url: /assets/seiji_cv_dec_2024.pdf
