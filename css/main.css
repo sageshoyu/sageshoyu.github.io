@@ -39,6 +39,7 @@ body {
 
 a {
 	color: var(--link-color);
+	font-size: 1.25rem;
 }
 
 body {
