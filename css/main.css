@@ -48,9 +48,7 @@ html {
 	--body-font: Lora, Georgia, serif;
 }
 
-
-
-
+/* main document settings */
 
 body {
 	background-color: var(--main-background-color);
@@ -59,7 +57,7 @@ body {
 	padding: 1em;
 }
 
-/**Styling for main body links **/
+/**Styling for main body text**/
 a {
 	font-size: 1.10rem;
 	color: var(--link-color);
@@ -74,7 +72,6 @@ body {
 	max-width: var(--width);
 	margin: 2em auto;
 }
-
 
 
 h1 {
@@ -94,6 +91,7 @@ p {
 
 
 /** header + navbar styling **/
+
 header {
 	font-family: var(--header-font);
 	display: flex;
@@ -115,6 +113,19 @@ header a.title{
 .nav {
 	/* display: inline-block; */
 	float: right;
-	line-height: 1.25em;
+	/* line-height: 1.25em; */
 	word-spacing: 1rem;
 }
+
+/* headshot */
+
+#headshot {
+	float: right;
+	max-width: 30%;
+	margin-left: 1.2rem;
+	margin-right: 1.2rem;
+	margin-bottom: 1.1em;
+	/* border: .1rem var(--main-text-color) solid; */
+	border-radius: 0.5rem;
+}
+
