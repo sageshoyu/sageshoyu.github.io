@@ -14,6 +14,10 @@ defaults:
       layout: "default"
 
 
+plugins:
+  - jekyll-scholar
+
+
 # Navbar page list
 nav:
   - title: Scholar
