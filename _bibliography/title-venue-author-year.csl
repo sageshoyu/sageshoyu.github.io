@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0.2"
+       class="in-text" default-locale="en-US">
+  <info>
+    <title>Title (bold) / Authors / Venue (italic), Year (blocks)</title>
+    <id>http://example.com/csl/title-authors-venue-year-blocks</id>
+    <link href="http://example.com/csl/title-authors-venue-year-blocks" rel="self"/>
+    <category citation-format="author-date"/>
+    <updated>2025-12-21T00:00:00+00:00</updated>
+  </info>
+
+  <!-- Authors: First Last, First Last, and First Last -->
+  <macro name="authors">
+    <names variable="author">
+      <name delimiter=", "
+            and="text"
+            delimiter-precedes-last="always"/>
+      <substitute>
+        <names variable="editor"/>
+        <text term="anonymous"/>
+      </substitute>
+    </names>
+  </macro>
+
+  <macro name="year">
+    <date variable="issued">
+      <date-part name="year"/>
+    </date>
+  </macro>
+
+  <!-- Venue / Journal (italic). Tries container-title first (journal/booktitle). -->
+  <macro name="venue">
+    <choose>
+      <if variable="container-title">
+        <text variable="container-title" font-style="italic"/>
+      </if>
+      <else-if variable="event-title">
+        <text variable="event-title" font-style="italic"/>
+      </else-if>
+      <else-if variable="publisher">
+        <text variable="publisher" font-style="italic"/>
+      </else-if>
+      <else>
+        <text variable="genre" font-style="italic"/>
+      </else>
+    </choose>
+  </macro>
+
+  <!-- Keep in-text citations simple -->
+  <citation>
+    <layout prefix="(" suffix=")">
+      <group delimiter=", ">
+        <text macro="authors"/>
+        <text macro="year"/>
+      </group>
+    </layout>
+  </citation>
+
+  <!-- Bibliography with line breaks -->
+  <bibliography>
+    <layout>
+      <!-- Line 1: Title (bold) -->
+      <text variable="title" font-weight="bold" display="block"/>
+
+      <!-- Line 2: Authors -->
+      <text macro="authors" display="block"/>
+
+      <!-- Line 3: Venue (italic), Year. -->
+      <group display="block" delimiter=", " suffix=".">
+        <text macro="venue"/>
+        <text macro="year"/>
+      </group>
+    </layout>
+  </bibliography>
+</style>

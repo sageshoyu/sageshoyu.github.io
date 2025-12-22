@@ -1,7 +1,7 @@
 title: Seiji Shaw 
 author: Seiji Shaw
 email: seijis@mit.edu
-description: "A Jekyll demo site with a dark mode switch and random post feature"
+description: "Seiji Shaw's personal website."
 github: sageshoyu
 markdown: kramdown
 parse_block_html: false
@@ -17,7 +17,6 @@ defaults:
 plugins:
   - jekyll-scholar
 
-
 # Navbar page list
 nav:
   - title: Scholar
@@ -28,3 +27,11 @@ nav:
 
   - title: CV
     url: /assets/seiji_cv_dec_2024.pdf
+
+
+# Jekyll-Scholar Configuration
+
+scholar:
+  style: _bibliography/title-venue-author-year.csl 
+  bibliography_template: bibitem
+  bibliography_list_tag: ul
