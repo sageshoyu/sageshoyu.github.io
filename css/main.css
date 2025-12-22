@@ -143,7 +143,7 @@ ul.bibliography {
 	list-style-type: none;
 	display: flex;
     flex-direction: column; /* Stacks items vertically */
-    gap: 1em; /* Adds 1em of space between all direct flex children (the li's) */
+    gap: 1.5em; /* Adds 1em of space between all direct flex children (the li's) */
 	font-size: var(--body-size);
 }
 
