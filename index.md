@@ -47,6 +47,8 @@ A seabird population model to evaluate plastic pollution policies. Tiffany Ding\
 
 ## Publications
 
+\* equal contribution.
+
 ### Preprints
 
 {% bibliography --query @*[list=preprints] %}

@@ -87,7 +87,8 @@ h2 {
 }
 
 h3 { 
-	font-family: var(--header-font)
+	font-family: var(--header-font);
+	font-size: 1.25rem;
 }
 
 p {
@@ -134,7 +135,7 @@ header a.title{
 	border-radius: 0.5rem;
 }
 
-/* publication list */
+/* publication list styling */
 
 ul.bibliography {
 	padding: 1rem;
@@ -145,3 +146,8 @@ ul.bibliography {
 	font-size: var(--body-size);
 }
 
+/* a bit of a hack to only index author/venue lines of generated pub entry
+.bibliography li span > .csl-block:nth-of-type(2) {
+  color: var(--sub-text-color)
+}
+ */
