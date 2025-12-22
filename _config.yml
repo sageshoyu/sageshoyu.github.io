@@ -35,3 +35,5 @@ scholar:
   style: _bibliography/title-venue-author-year.csl 
   bibliography_template: bibitem
   bibliography_list_tag: ul
+  sort_by: year
+  order: descending

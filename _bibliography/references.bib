@@ -12,7 +12,8 @@
   urldate = {2025-12-21},
   abstract = {In order for a bimanual robot to manipulate an object that is held by both hands, it must construct motion plans such that the transformation between its end effectors remains fixed. This amounts to complicated nonlinear equality constraints in the configuration space, which are difficult for trajectory optimizers. In addition, the set of feasible configurations becomes a measure zero set, which presents a challenge to sampling-based motion planners. We leverage an analytic solution to the inverse kinematics problem to parametrize the configuration space, resulting in a lower-dimensional representation where the set of valid configurations has positive measure. We describe how to use this parametrization with existing motion planning algorithms, including sampling-based approaches, trajectory optimizers, and techniques that plan through convex inner-approximations of collision-free space.},
   keywords = {End effectors,Kinematics,Motion measurement,Planning,Robots,Trajectory},
-  file = {/home/seiji/Zotero/storage/N6JIXLWC/10610675.html}
+  file = {/home/seiji/Zotero/storage/N6JIXLWC/10610675.html},
+  list = pubs,
 }
 
 @misc{jainLearningAttentive2025,
@@ -29,7 +30,8 @@
   abstract = {Our goal is to enable robots to plan sequences of tabletop actions to push a block with unknown physical properties to a desired goal pose. We approach this problem by learning the constituent models of a Partially-Observable Markov Decision Process (POMDP), where the robot can observe the outcome of a push, but the physical properties of the block that govern the dynamics remain unknown. A common solution approach is to train an observation model in a supervised fashion, and do inference with a general inference technique such as particle filters. However, supervised training requires knowledge of the relevant physical properties that determine the problem dynamics, which we do not assume to be known. Planning also requires simulating many belief updates, which becomes expensive when using particle filters to represent the belief. We propose to learn an Attentive Neural Process that computes the belief over a learned latent representation of the relevant physical properties given a history of actions. To address the pushing planning problem, we integrate a trained Neural Process with a double-progressive widening sampling strategy. Simulation results indicate that Neural Process Tree with Double Progressive Widening (NPT-DPW) generates better-performing plans faster than traditional particle-filter methods that use a supervised-trained observation model, even in complex pushing scenarios.},
   archiveprefix = {arXiv},
   keywords = {Computer Science - Robotics},
-  file = {/home/seiji/Dropbox (MIT)/zotero_library/Jain et al. - 2025 - Learning Attentive Neural Processes for Planning with Pushing Actions.pdf;/home/seiji/Zotero/storage/52JFWAQ3/2504.html}
+  file = {/home/seiji/Dropbox (MIT)/zotero_library/Jain et al. - 2025 - Learning Attentive Neural Processes for Planning with Pushing Actions.pdf;/home/seiji/Zotero/storage/52JFWAQ3/2504.html},
+  list = workshops,
 }
 
 @inproceedings{noseworthyAmortizedInference2024,
@@ -43,26 +45,23 @@
   urldate = {2025-12-21},
   abstract = {In robotic applications such as bin-picking or block-stacking, learned predictive models have been developed for manipulation of objects with varying but known dynamic properties (e.g., mass distributions and friction coefficients). When a robot encounters a new object, these properties are often difficult to observe and must be inferred through interaction, which can be expensive in both inference time and number of interactions. We propose an encoder/decoder action-feasibility model to efficiently adapt to new objects by estimating their unobserved properties through interaction. The encoder predicts a distribution over the unobserved parameters while the decoder predicts action feasibility, which can be used in an uncertainty-aware planner. An explicit representation of uncertainty in the encoder enables information-gathering heuristics to minimize adaptation interactions. The amortized distributions are efficient to compute and perform comparably to particle-based distributions in a grasping domain. Finally, we deploy our method on a Panda robot to grasp heavy objects.},
   keywords = {Adaptation models,Computational modeling,Geometry,Grasping,Predictive models,Robustness,Uncertainty},
-  file = {/home/seiji/Zotero/storage/UQNBNJYY/10610789.html}
+  file = {/home/seiji/Zotero/storage/UQNBNJYY/10610789.html},
+  list = pubs,
 }
 
-@misc{shaw_constrained_2022,
-  title = {Constrained {{Dynamic Movement Primitives}} for {{Safe Learning}} of {{Motor Skills}}},
-  author = {Shaw, Seiji and Jha, Devesh K. and Raghunathan, Arvind and Corcodel, Radu and Romeres, Diego and Konidaris, George and Nikovski, Daniel},
-  year = 2022,
-  month = sep,
-  number = {arXiv:2209.14461},
-  eprint = {2209.14461},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2209.14461},
-  urldate = {2022-10-27},
-  abstract = {Dynamic movement primitives are widely used for learning skills which can be demonstrated to a robot by a skilled human or controller. While their generalization capabilities and simple formulation make them very appealing to use, they possess no strong guarantees to satisfy operational safety constraints for a task. In this paper, we present constrained dynamic movement primitives (CDMP) which can allow for constraint satisfaction in the robot workspace. We present a formulation of a non-linear optimization to perturb the DMP forcing weights regressed by locally-weighted regression to admit a Zeroing Barrier Function (ZBF), which certifies workspace constraint satisfaction. We demonstrate the proposed CDMP under different constraints on the end-effector movement such as obstacle avoidance and workspace constraints on a physical robot. A video showing the implementation of the proposed algorithm using different manipulators in different environments could be found here https://youtu.be/hJegJJkJfys.},
-  archiveprefix = {arXiv},
-  copyright = {All rights reserved},
-  keywords = {Computer Science - Artificial Intelligence,Computer Science - Robotics},
-  file = {/home/seiji/Zotero/storage/M9U47HSR/Shaw et al. - 2022 - Constrained Dynamic Movement Primitives for Safe L.pdf;/home/seiji/Zotero/storage/ED9QKIHF/2209.html}
+@inproceedings{shawConstrainedDynamic2023,                                      
+  title = {Constrained {{Dynamic Movement Primitives}} for {{Collision Avoidance}} in {{Novel Environments}}},
+  booktitle = {{{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}}},
+  author = {Shaw, Seiji and Jha, Devesh K. and Raghunathan, Arvind U. and Corcodel, Radu and Romeres, Diego and Konidaris, George and Nikovski, Daniel},
+  year = 2023,
+  month = oct,
+  pages = {3672--3679},
+  issn = {2153-0866},
+  doi = {10.1109/IROS55552.2023.10341839},
+  urldate = {2025-12-22},
+  list=pubs,
 }
+
 
 @inproceedings{shaw_rmps_2022,
   title = {{{RMPs}} for {{Safe Impedance Control}} in {{Contact-Rich Manipulation}}},
@@ -75,7 +74,8 @@
   abstract = {Variable impedance control in operation-space is a promising approach to learning contact-rich manipulation behaviors. One of the main challenges with this approach is producing a manipulation behavior that ensures the safety of the arm and the environment. Such behavior is typically implemented via a reward function that penalizes unsafe actions (e.g. obstacle collision, joint limit extension), but that approach is not always effective and does not result in behaviors that can be reused in slightly different environments. We show how to combine Riemannian Motion Policies, a class of policies that dynamically generate motion in the presence of safety and collision constraints, with variable impedance operation-space control to learn safer contact-rich manipulation behaviors.},
   copyright = {All rights reserved},
   keywords = {Automation,Behavioral sciences,Impedance,Reinforcement learning,Safety,Task analysis,Tuning},
-  file = {/home/seiji/Zotero/storage/Y9329PD9/Shaw et al. - 2022 - RMPs for Safe Impedance Control in Contact-Rich Ma.pdf;/home/seiji/Zotero/storage/W8HM4A6G/9811986.html}
+  file = {/home/seiji/Zotero/storage/Y9329PD9/Shaw et al. - 2022 - RMPs for Safe Impedance Control in Contact-Rich Ma.pdf;/home/seiji/Zotero/storage/W8HM4A6G/9811986.html},
+  list = pubs,
 }
 
 @misc{shawPracticalFinite2024,
@@ -86,11 +86,12 @@
   number = {arXiv:2407.17394},
   eprint = {2407.17394},
   primaryclass = {cs},
-  publisher = {arXiv},
+  publisher = {Algorithmic Foundations of Robotics (in press)},
   doi = {10.48550/arXiv.2407.17394},
   urldate = {2025-12-21},
   abstract = {When using sampling-based motion planners, such as PRMs, in configuration spaces, it is difficult to determine how many samples are required for the PRM to find a solution consistently. This is relevant in Task and Motion Planning (TAMP), where many motion planning problems must be solved in sequence. We attempt to solve this problem by proving an upper bound on the number of samples that are sufficient, with high probability, to find a solution by drawing on prior work in deterministic sampling and sample complexity theory. We also introduce a numerical algorithm to compute a tighter number of samples based on the proof of the sample complexity theorem we apply to derive our bound. Our experiments show that our numerical bounding algorithm is tight within two orders of magnitude on planar planning problems and becomes looser as the problem's dimensionality increases. When deployed as a heuristic to schedule samples in a TAMP planner, we also observe planning time improvements in planar problems. While our experiments show much work remains to tighten our bounds, the ideas presented in this paper are a step towards a practical sample bound.},
   archiveprefix = {arXiv},
   keywords = {Computer Science - Computational Geometry,Computer Science - Robotics},
-  file = {/home/seiji/Dropbox (MIT)/zotero_library/Shaw et al. - 2024 - Towards Practical Finite Sample Bounds for Motion Planning in TAMP.pdf;/home/seiji/Zotero/storage/6596VKDC/2407.html}
+  file = {/home/seiji/Dropbox (MIT)/zotero_library/Shaw et al. - 2024 - Towards Practical Finite Sample Bounds for Motion Planning in TAMP.pdf;/home/seiji/Zotero/storage/6596VKDC/2407.html},
+  list = preprints,
 }
