@@ -2,5 +2,13 @@
 ---
 
 <!-- Make sure to underline my name. -->
-{{ reference 
-    | replace: "Seiji Shaw", '<u>Seiji Shaw</u>' }}
+{{ reference
+| replace: "Seiji Shaw", '<u>Seiji Shaw</u>' }}
+
+{% if entry.link %}
+<a href="{{ entry.link }}">link.</a>
+{% endif %}
+
+{% if entry.arxiv %}
+<a href="{{ entry.arxiv }}">arxiv.</a>
+{% endif %}
