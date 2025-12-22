@@ -44,6 +44,7 @@ html {
 	--main-text-color: rgb(16, 15, 15);
 	--sub-text-color: rgb(111, 110, 105);
 	--sub-sub-text-color: rgb(183, 181, 172);
+	--emph-text-color: rgb(175, 48, 41);
 	--header-font: plex, Verdana, Helvetica, sans-serif;
 	--body-font: Lora, Georgia, serif;
 	--body-size: 1.1rem;
@@ -144,6 +145,10 @@ ul.bibliography {
     flex-direction: column; /* Stacks items vertically */
     gap: 1em; /* Adds 1em of space between all direct flex children (the li's) */
 	font-size: var(--body-size);
+}
+
+ul.bibliography .notable {
+	color: var(--emph-text-color);
 }
 
 /* a bit of a hack to only index author/venue lines of generated pub entry

@@ -5,6 +5,10 @@
 {{ reference
 | replace: "Seiji Shaw", '<u>Seiji Shaw</u>' }}
 
+{% if entry.mention %}
+<span class="notable">{{ entry.mention }}</span><br/>
+{% endif %}
+
 {% if entry.link %}
 <a href="{{ entry.link }}">link</a>.
 {% endif %}
