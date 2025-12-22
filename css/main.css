@@ -38,7 +38,7 @@ html {
 }
 
 :root {
-	--width: 650px;
+	--width: 660px;
 	--link-color: rgb(36, 131, 123);
 	--main-background-color: rgb(255, 252, 240);
 	--main-text-color: rgb(16, 15, 15);
@@ -46,6 +46,7 @@ html {
 	--sub-sub-text-color: rgb(183, 181, 172);
 	--header-font: plex, Verdana, Helvetica, sans-serif;
 	--body-font: Lora, Georgia, serif;
+	--body-size: 1.1rem;
 }
 
 /* main document settings */
@@ -59,7 +60,7 @@ body {
 
 /**Styling for main body text**/
 a {
-	font-size: 1.10rem;
+	font-size: var(--body-size);
 	color: var(--link-color);
 	text-decoration: none;
 }
@@ -86,7 +87,7 @@ h2 {
 }
 
 p {
-	font-size: 1.1rem;
+	font-size: var(--body-size);
 }
 
 
@@ -127,5 +128,16 @@ header a.title{
 	margin-bottom: 1.1em;
 	/* border: .1rem var(--main-text-color) solid; */
 	border-radius: 0.5rem;
+}
+
+/* publication list */
+
+ul.bibliography {
+	padding: 1rem;
+	list-style-type: none;
+	display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    gap: 1em; /* Adds 1em of space between all direct flex children (the li's) */
+	font-size: var(--body-size);
 }
 
