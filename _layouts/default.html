@@ -1,65 +1,63 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark-poole">
-  {% include head.html %}
+<html lang="en-US">
 
-  <body>
-    <div class="container content">
-      <header class="masthead">
-        <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-          <!--small>{{site.tagline}}</small-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="generator" content="Jekyll">
+    <link rel='stylesheet' type='text/css' href='/css/main.css'>
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="Seiji Shaw">
+    <link rel="canonical" href="{{ page.url }}">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    {%- if page.updated-date -%}
+    <meta property="article:modified_time" content="{{ page.updated-date }}" />
+    {%- endif -%}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title"
+        content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}" />
+    <meta name="twitter:description"
+        content="{%- if page.description -%}{{ page.description | truncate: 140 }}{%- else -%}{{ site.description | truncate: 140  }}{%- endif -%}" />
 
-          <nav class="nav">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <span class="left">
+            <a href="{{ site.baseurl }}/" title="Home" class="title">{{ site.title }}</a>
+        </span>
+
+        <nav class="nav">
             {% for nav in site.nav %}
-            <small><a href="{{ nav.url }}">{{ nav.title }}</a></small>
+            <a href="{{ nav.url }}">{{ nav.title }}</a>
             {% endfor %}
-          </nav>
-        </h3>
+        </nav>
+    </header>
 
-        <small class="contact"> {{ site.contact_email }} <br> Office: {{ site.contact_office }}</small>
+    <article>
 
-      </header>
 
-      <main>
+        <h1>{{ page.title }}</h1>
+
         {{ content }}
-      </main>
 
-      <footer class="footer">
-        <small>
-          &copy;
-          <time datetime="{{ site.time | date_to_xmlschema }}"
-            >{{ site.time | date: '%Y' }}</time
-          >. All rights reserved.
-          <a href="/colophon.html">Colophon.</a>
-          <a href="https://accessibility.mit.edu">Accessibility.</a>
-        </small>
-      </footer>
-    </div>
+    </article>
 
-    {% if site.ga_analytics %}
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function () {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "https://www.google-analytics.com/analytics.js",
-        "ga"
-      );
-      ga("create", "{{ site.ga_analytics }}", "auto");
-      ga("send", "pageview");
-    </script>
-    {% endif %}
-  </body>
+    <footer>
+    </footer>
+
+
+</body>
+
 </html>

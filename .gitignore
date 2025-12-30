@@ -3,3 +3,16 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# drafts folder                                                                 
+_drafts/
+
+# Mac system files
+.DS_Store
+assets/.DS_Store
+static/.DS_Store
+_includes/.DS_Store
+
+#gemlock 
+Gemfile.lock
+~               

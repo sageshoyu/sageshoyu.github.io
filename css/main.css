@@ -1,0 +1,158 @@
+/* hosted fonts */
+@font-face {
+	font-family: plex;
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+	src: url('../assets/fonts/ibmplexsans-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: plex;
+	font-style: italic;
+	font-weight: normal;
+	font-stretch: normal;
+	src: url('../assets/fonts/ibmplexsans-italic-webfont.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: plex;
+	font-style: normal;
+	font-weight: bold;
+	font-stretch: normal;
+	src: url('../assets/fonts/ibmplexsans-semibold-webfont.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: plex;
+	font-style: italic;
+	font-weight: bold;
+	font-stretch: normal;
+	src: url('../assets/fonts/ibmplexsans-semibolditalic-webfont.woff2') format('woff2');
+}
+
+/* Set up common variables and base font sizing */
+
+html {
+	font-size: 100%
+}
+
+:root {
+	--width: 660px;
+	--link-color: rgb(36, 131, 123);
+	--main-background-color: rgb(255, 252, 240);
+	--main-text-color: rgb(16, 15, 15);
+	--sub-text-color: rgb(111, 110, 105);
+	--sub-sub-text-color: rgb(183, 181, 172);
+	--emph-text-color: rgb(175, 48, 41);
+	--header-font: plex, Verdana, Helvetica, sans-serif;
+	--body-font: Lora, Georgia, serif;
+	--body-size: 1.1rem;
+}
+
+/* main document settings */
+
+body {
+	background-color: var(--main-background-color);
+	color: var(--main-text-color);
+	font-family: var(--body-font);
+	padding: 1em;
+}
+
+/**Styling for main body text**/
+a {
+	font-size: var(--body-size);
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	max-width: var(--width);
+	margin: 2em auto;
+}
+
+
+h1 {
+	font-family: var(--header-font);
+	font-size: 2rem;
+}
+
+h2 {
+	font-family: var(--header-font);
+	font-size: 1.5rem;
+	margin-top: 2em;
+}
+
+h3 { 
+	font-family: var(--header-font);
+	font-size: 1.25rem;
+}
+
+p {
+	font-size: var(--body-size);
+}
+
+
+/** header + navbar styling **/
+
+header {
+	font-family: var(--header-font);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header a {
+	color: var(--main-text-color);
+	font-size: 1.25em;
+}
+
+header a.title{
+	font-weight: bold;
+	font-size: 1.5em;
+	/* text-align: left; */
+}
+
+.nav {
+	/* display: inline-block; */
+	float: right;
+	/* line-height: 1.25em; */
+	word-spacing: 1rem;
+}
+
+/* headshot */
+
+#headshot {
+	float: right;
+	max-width: 30%;
+	margin-left: 1.2rem;
+	margin-right: 1.2rem;
+	margin-bottom: 1.2em;
+	/* border: .1rem var(--main-text-color) solid; */
+	border-radius: 0.5rem;
+}
+
+/* publication list styling */
+
+ul.bibliography {
+	padding: 1rem;
+	list-style-type: none;
+	display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    gap: 1.5em; /* Adds 1em of space between all direct flex children (the li's) */
+	font-size: var(--body-size);
+}
+
+ul.bibliography .notable {
+	color: var(--emph-text-color);
+}
+
+/* a bit of a hack to only index author/venue lines of generated pub entry
+.bibliography li span > .csl-block:nth-of-type(2) {
+  color: var(--sub-text-color)
+}
+ */

@@ -1,0 +1,22 @@
+---
+---
+
+<!-- Make sure to underline my name. -->
+{{ reference
+| replace: "Seiji Shaw", '<u>Seiji Shaw</u>' }}
+
+{% if entry.mention %}
+<span class="notable">{{ entry.mention }}</span><br/>
+{% endif %}
+
+{% if entry.link %}
+<a href="{{ entry.link }}">link</a>.
+{% endif %}
+
+{% if entry.arxiv %}
+<a href="{{ entry.arxiv }}">arxiv</a>.
+{% endif %}
+
+{% if entry.code %}
+<a href="{{ entry.code }}">code</a>.
+{% endif %}
