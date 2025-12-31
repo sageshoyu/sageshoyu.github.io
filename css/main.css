@@ -34,7 +34,8 @@
 /* Set up common variables and base font sizing */
 
 html {
-	font-size: 100%
+	/* font-size: 4vw; */
+	font-size: clamp(8px, 3vw, 100%);
 }
 
 :root {
