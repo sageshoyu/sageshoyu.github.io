@@ -27,7 +27,7 @@
   number        = {arXiv:2504.17924},
   eprint        = {2504.17924},
   primaryclass  = {cs},
-  publisher     = {Robot Science and Systems RoboReps Workshop},
+  publisher     = {Robotics: Science and Systems RoboReps Workshop},
   doi           = {10.48550/arXiv.2504.17924},
   urldate       = {2025-12-21},
   abstract      = {Our goal is to enable robots to plan sequences of tabletop actions to push a block with unknown physical properties to a desired goal pose. We approach this problem by learning the constituent models of a Partially-Observable Markov Decision Process (POMDP), where the robot can observe the outcome of a push, but the physical properties of the block that govern the dynamics remain unknown. A common solution approach is to train an observation model in a supervised fashion, and do inference with a general inference technique such as particle filters. However, supervised training requires knowledge of the relevant physical properties that determine the problem dynamics, which we do not assume to be known. Planning also requires simulating many belief updates, which becomes expensive when using particle filters to represent the belief. We propose to learn an Attentive Neural Process that computes the belief over a learned latent representation of the relevant physical properties given a history of actions. To address the pushing planning problem, we integrate a trained Neural Process with a double-progressive widening sampling strategy. Simulation results indicate that Neural Process Tree with Double Progressive Widening (NPT-DPW) generates better-performing plans faster than traditional particle-filter methods that use a supervised-trained observation model, even in complex pushing scenarios.},
