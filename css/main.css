@@ -192,3 +192,13 @@ ul.bibliography .notable {
   color: var(--sub-text-color)
 }
  */
+
+
+ /**
+ footer styling
+ **/
+
+ footer {
+	margin-top: 3em;
+	text-align: center;
+ }

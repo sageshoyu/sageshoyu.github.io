@@ -3,7 +3,6 @@ title:
 --- 
 
 
-<!-- <img style="width: 25rem; display: block; margin-left: auto; margin-right: auto;" src="/assets/images/seiji.jpeg" alt="Seiji"/> -->
 <img id="headshot" alt="seiji" src="/assets/images/seiji_cropped.jpg">
 
 
