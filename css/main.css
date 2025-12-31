@@ -207,10 +207,5 @@ ul.bibliography .notable {
  footer a {
 	font-size: 0.9rem;
 	text-decoration: underline;
-	color: var(--sub-text-color)
  }
 
-
-a:hover {
-	font-weight: bold;
-}
