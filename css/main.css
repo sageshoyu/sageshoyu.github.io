@@ -200,11 +200,17 @@ ul.bibliography .notable {
 
  footer {
 	margin-top: 3em;
-	text-align: center;
-	width: 100%;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
+	color: var(--sub-text-color)
  }
 
  footer a {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
+	text-decoration: underline;
+	color: var(--sub-text-color)
  }
+
+
+a:hover {
+	font-weight: bold;
+}
