@@ -202,4 +202,5 @@ ul.bibliography .notable {
 	margin-top: 3em;
 	text-align: center;
 	width: 100%;
+	font-size: var(--body-size)
  }
