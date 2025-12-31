@@ -109,7 +109,7 @@ header {
 
 header a {
 	color: var(--main-text-color);
-	font-size: 1.25em;
+	font-size: 1.10em;
 }
 
 header a.title{
