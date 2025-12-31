@@ -31,6 +31,41 @@
 	src: url('../assets/fonts/ibmplexsans-semibolditalic-webfont.woff2') format('woff2');
 }
 
+
+@font-face {
+	font-family: lora;
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+	src: url('../assets/fonts/Lora-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: lora;
+	font-style: italic;
+	font-weight: normal;
+	font-stretch: normal;
+	src: url('../assets/fonts/Lora-Italic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: lora;
+	font-style: normal;
+	font-weight: bold;
+	font-stretch: normal;
+	src: url('../assets/fonts/Lora-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: lora;
+	font-style: italic;
+	font-weight: bold;
+	font-stretch: normal;
+	src: url('../assets/fonts/Lora-SemiBoldItalic.woff2') format('woff2');
+}
+
+
+
 /* Set up common variables and base font sizing */
 
 html {
@@ -47,7 +82,7 @@ html {
 	--sub-sub-text-color: rgb(183, 181, 172);
 	--emph-text-color: rgb(175, 48, 41);
 	--header-font: plex, Verdana, Helvetica, sans-serif;
-	--body-font: Lora, Georgia, serif;
+	--body-font: lora, Georgia, serif;
 	--body-size: 1.1rem;
 }
 
