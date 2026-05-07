@@ -12,7 +12,7 @@ My research is motivated by a dream experiment I hope to try someday: let a robo
 
 Previously, I completed a joint concentration in mathematics and computer science at [Brown University](https://www.brown.edu/) and was advised by [Prof. George Konidaris](https://cs.brown.edu/people/gdk/) and [Prof. Stefanie Tellex](https://cs.brown.edu/people/stellex/). I was also a research intern at [MERL](https://www.merl.com/research/). 
 
-When I'm not working on research, you can find me running (not so quickly) and occasionally bike touring. I am also an observant Jew, which may affect my availability online ([is it a Jewish holiday today?](https://isitajewishholidaytoday.com/)).
+When I'm not working on research, you can find me running (not so quickly) and occasionally bike touring. I am also an observant Jew, which may affect my availability online ([if it's a Jewish holiday, that is](https://isitajewishholidaytoday.com/)).
 
 
 
