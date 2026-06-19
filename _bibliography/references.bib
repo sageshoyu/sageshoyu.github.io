@@ -88,19 +88,15 @@
   link      = https://ieeexplore.ieee.org/document/9811986
 }
 
-@misc{shawPracticalFinite2024,
+@inproceedings{shawPracticalFinite2024,
   title         = {Towards {{Practical Finite Sample Bounds}} for {{Motion Planning}} in {{TAMP}}},
   author        = {Shaw, Seiji and Curtis, Aidan and Kaelbling, Leslie Pack and {Lozano-P{\'e}rez}, Tom{\'a}s and Roy, Nicholas},
   year          = 2024,
   month         = dec,
   number        = {arXiv:2407.17394},
   eprint        = {2407.17394},
-  primaryclass  = {cs},
-  publisher     = {Algorithmic Foundations of Robotics},
-  doi           = {10.48550/arXiv.2407.17394},
-  urldate       = {2025-12-21},
+  booktitle     = {Algorithmic Foundations of Robotics},
   abstract      = {When using sampling-based motion planners, such as PRMs, in configuration spaces, it is difficult to determine how many samples are required for the PRM to find a solution consistently. This is relevant in Task and Motion Planning (TAMP), where many motion planning problems must be solved in sequence. We attempt to solve this problem by proving an upper bound on the number of samples that are sufficient, with high probability, to find a solution by drawing on prior work in deterministic sampling and sample complexity theory. We also introduce a numerical algorithm to compute a tighter number of samples based on the proof of the sample complexity theorem we apply to derive our bound. Our experiments show that our numerical bounding algorithm is tight within two orders of magnitude on planar planning problems and becomes looser as the problem's dimensionality increases. When deployed as a heuristic to schedule samples in a TAMP planner, we also observe planning time improvements in planar problems. While our experiments show much work remains to tighten our bounds, the ideas presented in this paper are a step towards a practical sample bound.},
-  archiveprefix = {arXiv},
   keywords      = {Computer Science - Computational Geometry,Computer Science - Robotics},
   file          = {/home/seiji/Dropbox (MIT)/zotero_library/Shaw et al. - 2024 - Towards Practical Finite Sample Bounds for Motion Planning in TAMP.pdf;/home/seiji/Zotero/storage/6596VKDC/2407.html},
   list          = pubs,
