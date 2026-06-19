@@ -96,15 +96,16 @@
   number        = {arXiv:2407.17394},
   eprint        = {2407.17394},
   primaryclass  = {cs},
-  publisher     = {Algorithmic Foundations of Robotics (in press)},
+  publisher     = {Algorithmic Foundations of Robotics},
   doi           = {10.48550/arXiv.2407.17394},
   urldate       = {2025-12-21},
   abstract      = {When using sampling-based motion planners, such as PRMs, in configuration spaces, it is difficult to determine how many samples are required for the PRM to find a solution consistently. This is relevant in Task and Motion Planning (TAMP), where many motion planning problems must be solved in sequence. We attempt to solve this problem by proving an upper bound on the number of samples that are sufficient, with high probability, to find a solution by drawing on prior work in deterministic sampling and sample complexity theory. We also introduce a numerical algorithm to compute a tighter number of samples based on the proof of the sample complexity theorem we apply to derive our bound. Our experiments show that our numerical bounding algorithm is tight within two orders of magnitude on planar planning problems and becomes looser as the problem's dimensionality increases. When deployed as a heuristic to schedule samples in a TAMP planner, we also observe planning time improvements in planar problems. While our experiments show much work remains to tighten our bounds, the ideas presented in this paper are a step towards a practical sample bound.},
   archiveprefix = {arXiv},
   keywords      = {Computer Science - Computational Geometry,Computer Science - Robotics},
   file          = {/home/seiji/Dropbox (MIT)/zotero_library/Shaw et al. - 2024 - Towards Practical Finite Sample Bounds for Motion Planning in TAMP.pdf;/home/seiji/Zotero/storage/6596VKDC/2407.html},
-  list          = preprints,
+  list          = pubs,
   arxiv         = https://arxiv.org/abs/2407.17394,
+  link          = https://rdcu.be/fpny3,
   code          = https://github.com/robustrobotics/nonasymptotic-mp
 }
 
@@ -117,7 +118,7 @@
   number = {arXiv:2601.18930},
   eprint = {2601.18930},
   primaryclass = {cs},
-  publisher = {Algorithmic Foundations of Robotics (accepted)},
+  publisher = {Algorithmic Foundations of Robotics (in press)},
   doi = {10.48550/arXiv.2601.18930},
   urldate = {2026-02-03},
   abstract = {We are interested in enabling autonomous agents to learn and reason about systems with hidden states, such as furniture with hidden locking mechanisms. We cast this problem as learning the parameters of a discrete Partially Observable Markov Decision Process (POMDP). The agent begins with knowledge of the POMDP's actions and observation spaces, but not its state space, transitions, or observation models. These properties must be constructed from action-observation sequences. Spectral approaches to learning models of partially observable domains, such as learning Predictive State Representations (PSRs), are known to directly estimate the number of hidden states. These methods cannot, however, yield direct estimates of transition and observation likelihoods, which are important for many downstream reasoning tasks. Other approaches leverage tensor decompositions to estimate transition and observation likelihoods but often assume full state observability and full-rank transition matrices for all actions. To relax these assumptions, we study how PSRs learn transition and observation matrices up to a similarity transform, which may be estimated via tensor methods. Our method learns observation matrices and transition matrices up to a partition of states, where the states in a single partition have the same observation distributions corresponding to actions whose transition matrices are full-rank. Our experiments suggest that these partition-level transition models learned by our method, with a sufficient amount of data, meets the performance of PSRs as models to be used by standard sampling-based POMDP solvers. Furthermore, the explicit observation and transition likelihoods can be leveraged to specify planner behavior after the model has been learned.},
